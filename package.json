@@ -24,6 +24,7 @@
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
+    "@playwright/test": "^1.54.2",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/node": "^24.3.0",
