@@ -1,6 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 import { setTimeout } from "timers/promises";
+import path from 'path';
 
 const app = express();
 app.use(cors());
@@ -8,7 +9,7 @@ app.use(express.json())
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello world');
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.get('/computation', async (req, res) => {

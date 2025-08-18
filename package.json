@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "tsc && node dist/server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "ts-node src/server/index.ts"
   },
   "repository": {
     "type": "git",
@@ -21,7 +20,8 @@
   "homepage": "https://github.com/T0nd0Tara/playwright-async-benchmark#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",

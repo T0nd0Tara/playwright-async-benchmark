@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>PlayWright Async Benchmark</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #f4f4f4;
+    }
+
+    button {
+      font-size: 20px;
+      padding: 15px 30px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <button id="fetchBtn">Click me</button>
+
+  <script>
+    const button = document.getElementById("fetchBtn");
+
+    button.addEventListener("click", async () => {
+      button.textContent = "Loading...";
+
+      try {
+        // Example URL - replace with your server endpoint
+        const response = await fetch("http://localhost:3000/computation");
+        const data = await response.json();
+
+        // Use a property from the response as the button text
+        button.textContent = data.msg;
+      } catch (error) {
+        button.textContent = "Error!";
+        console.error(error);
+      }
+    });
+  </script>
+</body>
+
+</html>
