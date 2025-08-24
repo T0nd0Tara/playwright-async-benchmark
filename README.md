@@ -31,8 +31,6 @@ CPU: Intel i5-8350U (8) @ 3.600GHz
 GPU: Intel UHD Graphics 620
 Memory: 2988MiB / 39991MiB
 ```
-```
-```
 For context.
 
 To run the benchmark yourself run `./run-all.sh >| file-of-your-choosing.txt`.
