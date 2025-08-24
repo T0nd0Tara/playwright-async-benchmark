@@ -12,13 +12,12 @@ for (let workerInd = 0; workerInd < amountOfWorkers; workerInd++) {
   const startInd = workerInd * baseSize + Math.min(workerInd, remainder);
   const endInd = startInd + baseSize + (workerInd < remainder ? 1 : 0);
   const relevantTests: TestArgs[] = tests.slice(startInd, endInd)
-  test(`worker_${workerInd}`, async ({ browser }, testInfo) => {
+  test(`worker_${workerInd}`, async ({ browser, ...otherArgs }, testInfo) => {
     const testPromises = relevantTests.map(async singleTest => {
       const page = await browser.newPage()
       await page.goto('/');
 
-      // @ts-expect-error: PW enforces destruction of the first arguement in the test
-      return singleTest[2]({ browser, page }, testInfo)
+      return singleTest[2]({ browser, ...otherArgs, page }, testInfo)
     });
 
     await Promise.all(testPromises)
