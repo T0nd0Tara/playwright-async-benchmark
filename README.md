@@ -58,7 +58,7 @@ There is also a regression when you try to run more workers (as expected)
 
 But this doesn't do much for me, So I run it with a multiplier of 20 (instead of 5, you can change it in `src/all-tests.ts`), totaling in 180 tests. \
 And as it seems that the best workers number on my machine is 6, I stuck with it. \
-This is what the script `run-best.sh` is for. Notice that the difference between the 2 asyncs here is that 1 runs with 2 workers \ 
+This is what the script `run-best.sh` is for. Notice that the difference between the 2 asyncs here is that 1 runs with 2 workers \
 ![ubuntu-chrome-best](./images/ubuntu-chrome-best.png) \
 You can see that even with 1 worker we gained 300% increase.
 
