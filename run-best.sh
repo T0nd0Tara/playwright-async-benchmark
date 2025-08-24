@@ -17,9 +17,12 @@ while ! (curl http://localhost:$SERVER_PORT >/dev/null 2>&1); do
 done
 echo "Server is running"
 wait $TSC_PID
-export TEST_MULTIPLIER=20
+export TEST_MULTIPLIER=200
 
 # Concourent workers
+export WORKER_COUNT=1
+npm run async-tests -- -j 1
+
 export WORKER_COUNT=2
 npm run async-tests -- -j 2
 
