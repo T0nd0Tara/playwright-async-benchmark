@@ -5,13 +5,13 @@ import { TestArgs } from "../types";
 const tests: TestArgs[] = getAllTests()
 const amountOfWorkers: number = parseInt(process.env.WORKER_COUNT ?? '1')
 console.log('amountOfWorkers', amountOfWorkers)
-const baseSize = Math.floor(tests.length / amountOfWorkers);
-const remainder = tests.length % amountOfWorkers;
+const testsPerWorker = tests.reduce((chunks, item, index) => {
+  chunks[index % amountOfWorkers].push(item);
+  return chunks;
+}, Array.from({ length: amountOfWorkers }, () => []) as TestArgs[][]);
 
 for (let workerInd = 0; workerInd < amountOfWorkers; workerInd++) {
-  const startInd = workerInd * baseSize + Math.min(workerInd, remainder);
-  const endInd = startInd + baseSize + (workerInd < remainder ? 1 : 0);
-  const relevantTests: TestArgs[] = tests.slice(startInd, endInd)
+  const relevantTests: TestArgs[] = testsPerWorker[workerInd]
   test(`worker_${workerInd}`, async ({ browser, ...otherArgs }, testInfo) => {
     const testPromises = relevantTests.map(async singleTest => {
       const page = await browser.newPage()
