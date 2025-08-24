@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "ts-node src/server/index.ts",
+    "prepare": "tsc",
     "pw:1": "playwright test -j 1",
     "pw:2": "playwright test -j 2",
     "pw:3": "playwright test -j 3",
