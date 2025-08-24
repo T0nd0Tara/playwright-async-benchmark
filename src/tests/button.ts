@@ -43,4 +43,12 @@ export const tests: TestArgs[] = [
     await button.click();
     await expect(button).toHaveText(msg);
   }],
+  ["button message after multiple clicks", {}, async ({ page }) => {
+    const button = page.getByTestId('button')
+    for (let i = 0; i < 3; i++) {
+      await button.click();
+      await expect(button).toHaveText('Loading...');
+      await expect(button).toHaveText('OK');
+    }
+  }],
 ]
