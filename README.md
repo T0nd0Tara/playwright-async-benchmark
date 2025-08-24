@@ -61,3 +61,13 @@ And as it seems that the best workers number on my machine is 6, I stuck with it
 This is what the script `run-best.sh` is for. Notice that the difference between the 2 asyncs here is that 1 runs with 2 workers
 ![ubuntu-chrome-best](./images/ubuntu-chrome-best.png) \
 You can see that even with 1 worker we gained 300% increase.
+
+## What Now?
+This gain can only be if the tests are waiting for things to happen, and not doing the hard computation on their own. \
+As this is the case of most website's tests I believe it should be a feature in PlayWright, to make it easier for the developers to gain this performance. \
+As I said in my [first issue](https://github.com/microsoft/playwright/issues/36900), this should not be the default
+behaviour of PlayWright. \
+But it can be configurable in `playwright.config.ts` for example, maybe even use something like `p-limit` and allow to
+limit the amount of concurrency per worker... Just a thought.
+
+
