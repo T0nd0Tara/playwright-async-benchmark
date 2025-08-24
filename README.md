@@ -12,8 +12,7 @@ Each test is ran 5 times (in every benchmark), just so I wouldn't need to be cre
 
 ## Results
 Not surprising really\
-I have 2 machines,\
-an Ubuntu with the specs:
+on my machine, an Ubuntu with the specs:
 ```
 OS: Ubuntu 24.04.3 LTS x86_64
 Host: 20L6S0CG09 ThinkPad T480
@@ -32,8 +31,9 @@ CPU: Intel i5-8350U (8) @ 3.600GHz
 GPU: Intel UHD Graphics 620
 Memory: 2988MiB / 39991MiB
 ```
-
-And a Fedora which I'm yet to run the benchmark on.
+```
+```
+For context.
 
 To run the benchmark yourself run `./run-all.sh >| file-of-your-choosing.txt`.
 It will set there the raw output from playwright.
@@ -60,3 +60,4 @@ But this doesn't do much for me, So I run it with a multiplier of 20 (instead of
 And as it seems that the best workers number on my machine is 6, I stuck with it. \
 This is what the script `run-best.sh` is for. Notice that the async here runs with 2 workers, as previously it ran with
 just one
+h
