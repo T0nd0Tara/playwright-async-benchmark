@@ -12,12 +12,13 @@ const testsPerWorker = tests.reduce((chunks, item, index) => {
 
 for (let workerInd = 0; workerInd < amountOfWorkers; workerInd++) {
   const relevantTests: TestArgs[] = testsPerWorker[workerInd]
-  test(`worker_${workerInd}`, async ({ browser, ...otherArgs }, testInfo) => {
+  test(`worker_${workerInd}`, async ({ browser }, testInfo) => {
     const testPromises = relevantTests.map(async singleTest => {
       const page = await browser.newPage()
       await page.goto('/');
 
-      return singleTest[2]({ browser, ...otherArgs, page }, testInfo)
+      // @ts-expect-error: PW enforces destruction of the first arguement in the test
+      return singleTest[2]({ browser, page }, testInfo)
     });
 
     await Promise.all(testPromises)
