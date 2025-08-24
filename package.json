@@ -4,7 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "ts-node src/server/index.ts"
+    "server": "ts-node src/server/index.ts",
+    "pw:1": "playwright test -j 1",
+    "pw:2": "playwright test -j 2",
+    "pw:3": "playwright test -j 3",
+    "pw:4": "playwright test -j 4",
+    "pw:5": "playwright test -j 5",
+    "pw:6": "playwright test -j 6",
+    "pw:7": "playwright test -j 7",
+    "pw:8": "playwright test -j 8",
+    "pw:16": "playwright test -j 16",
+    "pw:32": "playwright test -j 32"
   },
   "repository": {
     "type": "git",
