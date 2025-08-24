@@ -17,6 +17,7 @@ while ! (curl http://localhost:$SERVER_PORT >/dev/null 2>&1); do
 done
 echo "Server is running"
 wait $TSC_PID
+export TEST_MULTIPLIER=5
 
 # Concourent workers
 for workers in 1; do
