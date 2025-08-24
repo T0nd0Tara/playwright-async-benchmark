@@ -18,9 +18,15 @@ done
 echo "Server is running"
 wait $TSC_PID
 
+# Concourent workers
+for workers in 1; do
+  export WORKER_COUNT=$workers
+  npm run async-tests -- -j $workers
+done
+
 # PW workers stuff
 for workers in 1 2 3 4 5 6 7 8 16 32; do
-  npm run pw:$workers
+  npm run pw -- -j $workers
 done
 
 # Close server
