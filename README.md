@@ -57,4 +57,6 @@ You can see that not only that the async-runner (that runs with 1 worker) is muc
 There is also a regression when you try to run more workers (as expected)
 
 But this doesn't do much for me, So I run it with a multiplier of 20 (instead of 5, you can change it in `src/all-tests.ts`), totaling in 1,800 tests. \
-And as it seems that the best workers number on my machine is 6, I stuck with it. 
+And as it seems that the best workers number on my machine is 6, I stuck with it. \
+This is what the script `run-best.sh` is for. Notice that the async here runs with 2 workers, as previously it ran with
+just one

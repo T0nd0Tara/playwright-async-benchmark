@@ -3,7 +3,7 @@ import path from 'path';
 import { globSync } from "fs";
 
 export function getAllTests(): TestArgs[] {
-  const mult = 5;
+  const mult = parseInt(process.env.TEST_MULTIPLIER ?? '5');
 
   const pathPrefix = path.join(__dirname, 'tests')
   const allTests: TestArgs[] = []
