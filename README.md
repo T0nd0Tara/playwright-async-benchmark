@@ -1,7 +1,7 @@
 # Playwright Async Benchmark 
 
 ## The Story Behind this Repo
-So this repo was created for a certain someone (who will remain anonymous) made [this amazingly ignorant comment](https://github.com/microsoft/playwright/issues/37062#issuecomment-3193733984).\
+So this repo was created for a certain someone (who will remain anonymous) made [this amazing comment](https://github.com/microsoft/playwright/issues/37062#issuecomment-3193733984).\
 After I was in shock for a bit, I complained to the [PW discord server](https://discord.com/channels/807756831384403968/1405813451179294731). People there suggested to create a benchmark checking my statement. \
 So here we are, me proving to this anonymous person that he is wrong in the hopes of making Playwright faster and better.
 
