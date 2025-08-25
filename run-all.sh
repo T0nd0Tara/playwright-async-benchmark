@@ -26,7 +26,7 @@ for workers in 1; do
 done
 
 # PW workers stuff
-for workers in 1 2 3 4 5 6 7 8 16 32 45; do
+for workers in 1 2 3 4 5 6 7 8 16 32 40; do
   npm run pw -- -j $workers
 done
 

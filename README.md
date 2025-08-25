@@ -8,7 +8,8 @@ So here we are, me proving to this anonymous person that he is wrong in the hope
 ## The Project
 The tests run on a simple express server located in `src/server`. It does some fake async work to imitate a real server.
 
-Each test is ran 5 times (in every benchmark), just so I wouldn't need to be creative and run a lot of tests. 
+Each test is ran 5 times (in every benchmark), just so I wouldn't need to be creative and run a lot of tests. (can be
+changed via the `TEST_MULTIPLIER` environment variable)
 
 ## Results
 Not surprising really\
@@ -42,10 +43,10 @@ Originally I wanted to have a test with 2 workers each running their tests concu
 as the results are just astounding.
 
 There is also benchmarks for running the tests with every of the following worker counts 
-1, 2, 3, 4, 5, 6, 7, 8, 16, 32, 45. \
-It stops at `45` as there are a total of `45` tests.
+1, 2, 3, 4, 5, 6, 7, 8, 16, 32, 40. \
+It stops at `40` as there are a total of `40` tests.
 
-This is a joke on the comment he made, obviously it is stupid to run `45` workers on a machine like my own with only `8` threads.\
+This is a joke on the comment he made, obviously it is stupid to run `40` workers on a machine like my own with only `8` threads.\
 But I did it anyway just to prove a point (RIP my computer lol)
 
 ### Graphs
