@@ -61,12 +61,24 @@ This is what the script `run-best.sh` is for. Notice that the difference between
 ![ubuntu-chrome-best](./images/ubuntu-chrome-best.png) \
 You can see that even with 1 worker we gained 300% increase.
 
+I hear what you are saying, this isn't really fair right? I mean, one benchmark gets 6 workers and the other only 1? \
+So I made another benchmark called `run-fair.sh`, which runs the `async-runner` with 6 workers as well, and with much
+more tests. \
+The problem with this is that sometimes the event-loop doesn't get to all of the tests on time, and we get errors cause
+by the time we check that the button have the label `Loading...` it is already `Ok`. \
+How can we solve it? With the library [p-limit](https://www.npmjs.com/package/p-limit).\
+By letting each worker have a concurrency of `15`, we assure all of our tests get the attention they need.\
+We get these results: \
+![ubuntu-chrome-fair](./images/ubuntu-chrome-fair.png) \
+Now we can see that we can achieve an increase in speed of `4.5` times that of PlayWright.
+
+
 ## What Now?
 This gain can only be if the tests are waiting for things to happen, and not doing the hard computation on their own. \
 As this is the case of most website's tests I believe it should be a feature in PlayWright, to make it easier for the developers to gain this performance. \
 As I said in my [first issue](https://github.com/microsoft/playwright/issues/36900), this should not be the default
 behaviour of PlayWright. \
 But it can be configurable in `playwright.config.ts` for example, maybe even use something like `p-limit` and allow to
-limit the amount of concurrency per worker... Just a thought.
+limit the amount of concurrency per worker (like in `run-fair.sh`) Just a thought.
 
 
