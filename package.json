@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "ts-node src/server/index.ts",
+    "build": "tsc && cp ./src/server/index.html ./dist/server/index.html",
+    "server": "node ./dist/server/index.js",
     "async-tests": "playwright test dist/test-runners/async-runner.spec.js",
+    "async-plimit": "playwright test dist/test-runners/async-runner-with-plimit.spec.js",
     "pw": "playwright test dist/test-runners/pw.spec.js"
   },
   "repository": {
@@ -23,6 +25,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
+    "p-limit": "^7.1.0",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
