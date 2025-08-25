@@ -2,8 +2,8 @@
 
 ## The Story Behind this Repo
 So this repo was created for a certain someone (who will remain anonymous) made [this amazing comment](https://github.com/microsoft/playwright/issues/37062#issuecomment-3193733984).\
-After I was in shock for a bit, I complained to the [PW discord server](https://discord.com/channels/807756831384403968/1405813451179294731). People there suggested to create a benchmark checking my statement. \
-So here we are, me proving to this anonymous person that he is wrong in the hopes of making Playwright faster and better.
+After I was in shock for a bit, I talked in the [PW discord server](https://discord.com/channels/807756831384403968/1405813451179294731). People there suggested to create a benchmark checking my statement. \
+So here we are, me proving to this anonymous person that Playwright can be much faster.
 
 ## The Project
 The tests run on a simple express server located in `src/server`. It does some fake async work to imitate a real server.
