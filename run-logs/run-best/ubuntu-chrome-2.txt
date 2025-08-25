@@ -1,9 +1,12 @@
+
+> playwright-async-benchmark@1.0.0 build
+> tsc && cp ./src/server/index.html ./dist/server/index.html
+
 Waiting for port 3000 to be open
 
 > playwright-async-benchmark@1.0.0 server
-> ts-node src/server/index.ts
+> node ./dist/server/index.js
 
-Waiting for port 3000 to be open
 Listening on port 3000
 Server is running
 
@@ -17,7 +20,7 @@ Running 1 test using 1 worker
 [1A[2KamountOfWorkers [33m1[39m
 
 [1A[2K[1/1] [chromium] › dist/test-runners/async-runner.spec.js:14:20 › worker_0
-[1A[2K  1 passed (11.2s)
+[1A[2K  1 passed (11.1s)
 
 To open last HTML report run:
 [36m[39m
@@ -37,7 +40,7 @@ Running 2 tests using 2 workers
 [1A[2KamountOfWorkers [33m2[39m
 
 [1A[2K[2/2] [chromium] › dist/test-runners/async-runner.spec.js:14:20 › worker_1
-[1A[2K  2 passed (10.2s)
+[1A[2K  2 passed (10.1s)
 
 To open last HTML report run:
 [36m[39m
@@ -50,12 +53,12 @@ To open last HTML report run:
 
 Running 160 tests using 6 workers
 
-[1A[2K[1/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_1
-[1A[2K[2/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_0
-[1A[2K[3/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_5
-[1A[2K[4/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_4
+[1A[2K[1/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_4
+[1A[2K[2/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_5
+[1A[2K[3/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_0
+[1A[2K[4/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_2
 [1A[2K[5/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_3
-[1A[2K[6/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_2
+[1A[2K[6/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_1
 [1A[2K[7/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_6
 [1A[2K[8/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_7
 [1A[2K[9/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_8
@@ -78,20 +81,20 @@ Running 160 tests using 6 workers
 [1A[2K[26/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_5
 [1A[2K[27/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_6
 [1A[2K[28/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_7
-[1A[2K[29/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_8
-[1A[2K[30/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_9
-[1A[2K[31/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_11
-[1A[2K[32/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_10
+[1A[2K[29/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_9
+[1A[2K[30/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_8
+[1A[2K[31/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_10
+[1A[2K[32/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_11
 [1A[2K[33/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_12
 [1A[2K[34/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_13
-[1A[2K[35/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_14
-[1A[2K[36/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_15
+[1A[2K[35/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_15
+[1A[2K[36/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_14
 [1A[2K[37/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_16
 [1A[2K[38/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_17
 [1A[2K[39/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_18
 [1A[2K[40/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_19
-[1A[2K[41/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_0
-[1A[2K[42/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_1
+[1A[2K[41/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_1
+[1A[2K[42/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_0
 [1A[2K[43/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_2
 [1A[2K[44/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_3
 [1A[2K[45/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_4
@@ -135,8 +138,8 @@ Running 160 tests using 6 workers
 [1A[2K[83/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_2
 [1A[2K[84/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_3
 [1A[2K[85/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_4
-[1A[2K[86/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_5
-[1A[2K[87/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_6
+[1A[2K[86/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_6
+[1A[2K[87/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_5
 [1A[2K[88/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_7
 [1A[2K[89/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_8
 [1A[2K[90/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_9
@@ -146,9 +149,9 @@ Running 160 tests using 6 workers
 [1A[2K[94/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_13
 [1A[2K[95/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_14
 [1A[2K[96/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_15
-[1A[2K[97/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_17
-[1A[2K[98/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_16
-[1A[2K[99/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_18
+[1A[2K[97/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_16
+[1A[2K[98/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_18
+[1A[2K[99/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_17
 [1A[2K[100/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_19
 [1A[2K[101/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_0
 [1A[2K[102/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_1
@@ -160,12 +163,12 @@ Running 160 tests using 6 workers
 [1A[2K[108/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_7
 [1A[2K[109/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_8
 [1A[2K[110/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_9
-[1A[2K[111/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_11
-[1A[2K[112/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_10
+[1A[2K[111/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_10
+[1A[2K[112/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_11
 [1A[2K[113/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_12
 [1A[2K[114/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_13
-[1A[2K[115/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_15
-[1A[2K[116/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_14
+[1A[2K[115/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_14
+[1A[2K[116/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_15
 [1A[2K[117/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_16
 [1A[2K[118/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_17
 [1A[2K[119/160] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_18
@@ -216,4 +219,4 @@ To open last HTML report run:
 [36m[39m
 [36m  npx playwright show-report[39m
 [36m[39m
- 554900
+ 888051

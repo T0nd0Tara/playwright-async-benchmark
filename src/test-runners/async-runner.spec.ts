@@ -18,7 +18,7 @@ for (let workerInd = 0; workerInd < amountOfWorkers; workerInd++) {
       await page.goto('/');
 
       // @ts-expect-error: PW enforces destruction of the first arguement in the test
-      return singleTest[2]({ browser, page }, testInfo)
+      return await singleTest[2]({ browser, page }, testInfo)
     });
 
     await Promise.all(testPromises)
