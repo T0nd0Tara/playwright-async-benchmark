@@ -14,11 +14,13 @@ for (let workerInd = 0; workerInd < amountOfWorkers; workerInd++) {
   const relevantTests: TestArgs[] = testsPerWorker[workerInd]
   test(`worker_${workerInd}`, async ({ browser }, testInfo) => {
     const testPromises = relevantTests.map(async singleTest => {
-      const page = await browser.newPage()
+      const context = await browser.newContext()
+      const page = await context.newPage()
       await page.goto('/');
 
       // @ts-expect-error: PW enforces destruction of the first arguement in the test
-      return await singleTest[2]({ browser, page }, testInfo)
+      await singleTest[2]({ browser, page }, testInfo)
+      await context.close();
     });
 
     await Promise.all(testPromises)
