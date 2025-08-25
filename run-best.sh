@@ -2,8 +2,7 @@
 SERVER_PORT=3000
 TIMEFORMAT=$'\nreal %3lR\nuser %3lU\nsys  %3lS'
 
-tsc &
-TSC_PID=$!
+npm run build
 fuser -k -TERM $SERVER_PORT/tcp
 while (curl http://localhost:$SERVER_PORT >/dev/null 2>&1); do
   echo "Waiting for port $SERVER_PORT to be close"
@@ -16,7 +15,6 @@ while ! (curl http://localhost:$SERVER_PORT >/dev/null 2>&1); do
   sleep 1
 done
 echo "Server is running"
-wait $TSC_PID
 export TEST_MULTIPLIER=20
 
 # Concourent workers
