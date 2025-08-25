@@ -18,23 +18,23 @@ Running 6 tests using 6 workers
 
 [1A[2KamountOfWorkers [33m6[39m
 
-[1A[2KamountOfWorkers [33m6[39m
-
-[1A[2K[1/6] [chromium] › dist/test-runners/async-runner-with-plimit.spec.js:17:20 › worker_5
-[1A[2K[2/6] [chromium] › dist/test-runners/async-runner-with-plimit.spec.js:17:20 › worker_2
+[1A[2K[1/6] [chromium] › dist/test-runners/async-runner-with-plimit.spec.js:17:20 › worker_1
 [1A[2KamountOfWorkers [33m6[39m
 
 [1A[2KamountOfWorkers [33m6[39m
 
-[1A[2K[3/6] [chromium] › dist/test-runners/async-runner-with-plimit.spec.js:17:20 › worker_0
 [1A[2KamountOfWorkers [33m6[39m
 
+[1A[2K[2/6] [chromium] › dist/test-runners/async-runner-with-plimit.spec.js:17:20 › worker_0
+[1A[2K[3/6] [chromium] › dist/test-runners/async-runner-with-plimit.spec.js:17:20 › worker_4
 [1A[2KamountOfWorkers [33m6[39m
 
-[1A[2K[4/6] [chromium] › dist/test-runners/async-runner-with-plimit.spec.js:17:20 › worker_4
+[1A[2K[4/6] [chromium] › dist/test-runners/async-runner-with-plimit.spec.js:17:20 › worker_5
 [1A[2K[5/6] [chromium] › dist/test-runners/async-runner-with-plimit.spec.js:17:20 › worker_3
-[1A[2K[6/6] [chromium] › dist/test-runners/async-runner-with-plimit.spec.js:17:20 › worker_1
-[1A[2K  6 passed (40.0s)
+[1A[2KamountOfWorkers [33m6[39m
+
+[1A[2K[6/6] [chromium] › dist/test-runners/async-runner-with-plimit.spec.js:17:20 › worker_2
+[1A[2K  6 passed (40.2s)
 
 To open last HTML report run:
 [36m[39m
@@ -47,12 +47,12 @@ To open last HTML report run:
 
 Running 960 tests using 6 workers
 
-[1A[2K[1/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_5
-[1A[2K[2/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_0
-[1A[2K[3/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_3
-[1A[2K[4/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_4
-[1A[2K[5/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_2
-[1A[2K[6/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_1
+[1A[2K[1/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_0
+[1A[2K[2/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_2
+[1A[2K[3/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_4
+[1A[2K[4/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_1
+[1A[2K[5/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_3
+[1A[2K[6/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_5
 [1A[2K[7/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_6
 [1A[2K[8/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_7
 [1A[2K[9/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_8
@@ -63,8 +63,8 @@ Running 960 tests using 6 workers
 [1A[2K[14/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_13
 [1A[2K[15/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_14
 [1A[2K[16/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_15
-[1A[2K[17/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_16
-[1A[2K[18/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_17
+[1A[2K[17/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_17
+[1A[2K[18/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_16
 [1A[2K[19/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_18
 [1A[2K[20/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_19
 [1A[2K[21/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_20
@@ -75,11 +75,11 @@ Running 960 tests using 6 workers
 [1A[2K[26/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_25
 [1A[2K[27/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_26
 [1A[2K[28/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_27
-[1A[2K[29/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_28
-[1A[2K[30/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_29
+[1A[2K[29/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_29
+[1A[2K[30/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_28
 [1A[2K[31/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_30
-[1A[2K[32/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_31
-[1A[2K[33/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_32
+[1A[2K[32/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_32
+[1A[2K[33/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_31
 [1A[2K[34/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_33
 [1A[2K[35/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_34
 [1A[2K[36/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_35
@@ -129,8 +129,8 @@ Running 960 tests using 6 workers
 [1A[2K[80/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_79
 [1A[2K[81/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_80
 [1A[2K[82/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_81
-[1A[2K[83/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_82
-[1A[2K[84/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_83
+[1A[2K[83/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_83
+[1A[2K[84/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_82
 [1A[2K[85/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_84
 [1A[2K[86/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_85
 [1A[2K[87/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_86
@@ -140,10 +140,10 @@ Running 960 tests using 6 workers
 [1A[2K[91/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_90
 [1A[2K[92/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_91
 [1A[2K[93/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_92
-[1A[2K[94/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_94
-[1A[2K[95/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_93
-[1A[2K[96/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_95
-[1A[2K[97/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_96
+[1A[2K[94/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_93
+[1A[2K[95/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_94
+[1A[2K[96/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_96
+[1A[2K[97/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_95
 [1A[2K[98/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_97
 [1A[2K[99/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_98
 [1A[2K[100/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_99
@@ -151,9 +151,9 @@ Running 960 tests using 6 workers
 [1A[2K[102/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_101
 [1A[2K[103/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_102
 [1A[2K[104/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_103
-[1A[2K[105/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_105
-[1A[2K[106/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_106
-[1A[2K[107/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_104
+[1A[2K[105/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_104
+[1A[2K[106/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_105
+[1A[2K[107/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_106
 [1A[2K[108/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_107
 [1A[2K[109/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_108
 [1A[2K[110/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct title_109
@@ -181,8 +181,8 @@ Running 960 tests using 6 workers
 [1A[2K[132/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_11
 [1A[2K[133/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_12
 [1A[2K[134/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_13
-[1A[2K[135/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_15
-[1A[2K[136/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_14
+[1A[2K[135/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_14
+[1A[2K[136/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_15
 [1A[2K[137/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_16
 [1A[2K[138/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_17
 [1A[2K[139/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_18
@@ -194,14 +194,14 @@ Running 960 tests using 6 workers
 [1A[2K[145/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_24
 [1A[2K[146/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_25
 [1A[2K[147/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_26
-[1A[2K[148/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_28
-[1A[2K[149/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_27
+[1A[2K[148/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_27
+[1A[2K[149/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_28
 [1A[2K[150/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_29
 [1A[2K[151/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_30
 [1A[2K[152/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_31
 [1A[2K[153/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_32
-[1A[2K[154/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_34
-[1A[2K[155/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_33
+[1A[2K[154/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_33
+[1A[2K[155/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_34
 [1A[2K[156/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_35
 [1A[2K[157/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_36
 [1A[2K[158/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_37
@@ -210,8 +210,8 @@ Running 960 tests using 6 workers
 [1A[2K[161/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_40
 [1A[2K[162/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_41
 [1A[2K[163/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_42
-[1A[2K[164/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_44
-[1A[2K[165/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_43
+[1A[2K[164/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_43
+[1A[2K[165/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_44
 [1A[2K[166/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_45
 [1A[2K[167/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_46
 [1A[2K[168/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_47
@@ -222,8 +222,8 @@ Running 960 tests using 6 workers
 [1A[2K[173/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_52
 [1A[2K[174/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_53
 [1A[2K[175/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_54
-[1A[2K[176/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_55
-[1A[2K[177/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_56
+[1A[2K[176/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_56
+[1A[2K[177/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_55
 [1A[2K[178/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_57
 [1A[2K[179/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_58
 [1A[2K[180/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_59
@@ -237,8 +237,8 @@ Running 960 tests using 6 workers
 [1A[2K[188/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_67
 [1A[2K[189/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_68
 [1A[2K[190/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_69
-[1A[2K[191/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_70
-[1A[2K[192/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_71
+[1A[2K[191/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_71
+[1A[2K[192/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_70
 [1A[2K[193/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_72
 [1A[2K[194/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_73
 [1A[2K[195/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_74
@@ -253,8 +253,8 @@ Running 960 tests using 6 workers
 [1A[2K[204/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_83
 [1A[2K[205/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_84
 [1A[2K[206/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_85
-[1A[2K[207/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_87
-[1A[2K[208/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_86
+[1A[2K[207/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_86
+[1A[2K[208/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_87
 [1A[2K[209/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_88
 [1A[2K[210/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_89
 [1A[2K[211/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_90
@@ -272,8 +272,8 @@ Running 960 tests using 6 workers
 [1A[2K[223/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_102
 [1A[2K[224/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_103
 [1A[2K[225/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_104
-[1A[2K[226/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_106
-[1A[2K[227/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_105
+[1A[2K[226/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_105
+[1A[2K[227/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_106
 [1A[2K[228/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_108
 [1A[2K[229/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_107
 [1A[2K[230/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › page has correct url_109
@@ -297,12 +297,12 @@ Running 960 tests using 6 workers
 [1A[2K[248/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_7
 [1A[2K[249/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_8
 [1A[2K[250/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_9
-[1A[2K[251/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_11
-[1A[2K[252/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_10
+[1A[2K[251/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_10
+[1A[2K[252/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_11
 [1A[2K[253/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_12
 [1A[2K[254/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_13
-[1A[2K[255/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_15
-[1A[2K[256/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_14
+[1A[2K[255/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_14
+[1A[2K[256/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_15
 [1A[2K[257/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_16
 [1A[2K[258/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_17
 [1A[2K[259/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_18
@@ -342,9 +342,9 @@ Running 960 tests using 6 workers
 [1A[2K[293/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_52
 [1A[2K[294/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_53
 [1A[2K[295/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_54
-[1A[2K[296/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_55
-[1A[2K[297/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_57
-[1A[2K[298/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_56
+[1A[2K[296/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_56
+[1A[2K[297/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_55
+[1A[2K[298/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_57
 [1A[2K[299/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_58
 [1A[2K[300/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_59
 [1A[2K[301/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message before click_60
@@ -429,8 +429,8 @@ Running 960 tests using 6 workers
 [1A[2K[380/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_19
 [1A[2K[381/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_20
 [1A[2K[382/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_21
-[1A[2K[383/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_22
-[1A[2K[384/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_23
+[1A[2K[383/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_23
+[1A[2K[384/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_22
 [1A[2K[385/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_24
 [1A[2K[386/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_25
 [1A[2K[387/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_26
@@ -453,8 +453,8 @@ Running 960 tests using 6 workers
 [1A[2K[404/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_43
 [1A[2K[405/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_44
 [1A[2K[406/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_45
-[1A[2K[407/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_47
-[1A[2K[408/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_46
+[1A[2K[407/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_46
+[1A[2K[408/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_47
 [1A[2K[409/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_48
 [1A[2K[410/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_49
 [1A[2K[411/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_50
@@ -465,8 +465,8 @@ Running 960 tests using 6 workers
 [1A[2K[416/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_55
 [1A[2K[417/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_56
 [1A[2K[418/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_57
-[1A[2K[419/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_59
-[1A[2K[420/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_58
+[1A[2K[419/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_58
+[1A[2K[420/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_59
 [1A[2K[421/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_60
 [1A[2K[422/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_61
 [1A[2K[423/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_62
@@ -507,8 +507,8 @@ Running 960 tests using 6 workers
 [1A[2K[458/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_97
 [1A[2K[459/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_98
 [1A[2K[460/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_99
-[1A[2K[461/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_100
-[1A[2K[462/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_101
+[1A[2K[461/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_101
+[1A[2K[462/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_100
 [1A[2K[463/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_102
 [1A[2K[464/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_103
 [1A[2K[465/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after click_104
@@ -561,8 +561,8 @@ Running 960 tests using 6 workers
 [1A[2K[512/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_31
 [1A[2K[513/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_32
 [1A[2K[514/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_33
-[1A[2K[515/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_34
-[1A[2K[516/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_35
+[1A[2K[515/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_35
+[1A[2K[516/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_34
 [1A[2K[517/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_36
 [1A[2K[518/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_37
 [1A[2K[519/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_38
@@ -582,8 +582,8 @@ Running 960 tests using 6 workers
 [1A[2K[533/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_52
 [1A[2K[534/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_53
 [1A[2K[535/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_54
-[1A[2K[536/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_56
-[1A[2K[537/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_55
+[1A[2K[536/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_55
+[1A[2K[537/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_56
 [1A[2K[538/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_57
 [1A[2K[539/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_58
 [1A[2K[540/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_59
@@ -594,9 +594,9 @@ Running 960 tests using 6 workers
 [1A[2K[545/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_64
 [1A[2K[546/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_65
 [1A[2K[547/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_66
-[1A[2K[548/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_68
-[1A[2K[549/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_69
-[1A[2K[550/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_67
+[1A[2K[548/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_67
+[1A[2K[549/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_68
+[1A[2K[550/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_69
 [1A[2K[551/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_70
 [1A[2K[552/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_71
 [1A[2K[553/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_72
@@ -608,8 +608,8 @@ Running 960 tests using 6 workers
 [1A[2K[559/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_78
 [1A[2K[560/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_79
 [1A[2K[561/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_80
-[1A[2K[562/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_82
-[1A[2K[563/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_81
+[1A[2K[562/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_81
+[1A[2K[563/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_82
 [1A[2K[564/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_83
 [1A[2K[565/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_84
 [1A[2K[566/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_85
@@ -629,14 +629,14 @@ Running 960 tests using 6 workers
 [1A[2K[580/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_99
 [1A[2K[581/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_100
 [1A[2K[582/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_101
-[1A[2K[583/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_102
-[1A[2K[584/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_103
+[1A[2K[583/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_103
+[1A[2K[584/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_102
 [1A[2K[585/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_104
 [1A[2K[586/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_105
 [1A[2K[587/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_106
 [1A[2K[588/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_107
-[1A[2K[589/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_109
-[1A[2K[590/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_108
+[1A[2K[589/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_108
+[1A[2K[590/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_109
 [1A[2K[591/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_110
 [1A[2K[592/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_111
 [1A[2K[593/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message during click_112
@@ -660,15 +660,15 @@ Running 960 tests using 6 workers
 [1A[2K[611/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_10
 [1A[2K[612/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_11
 [1A[2K[613/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_12
-[1A[2K[614/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_13
-[1A[2K[615/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_14
+[1A[2K[614/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_14
+[1A[2K[615/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_13
 [1A[2K[616/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_15
 [1A[2K[617/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_16
 [1A[2K[618/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_17
 [1A[2K[619/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_18
 [1A[2K[620/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_19
-[1A[2K[621/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_20
-[1A[2K[622/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_21
+[1A[2K[621/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_21
+[1A[2K[622/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_20
 [1A[2K[623/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_22
 [1A[2K[624/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_23
 [1A[2K[625/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_24
@@ -677,8 +677,8 @@ Running 960 tests using 6 workers
 [1A[2K[628/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_27
 [1A[2K[629/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_28
 [1A[2K[630/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_29
-[1A[2K[631/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_31
-[1A[2K[632/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_30
+[1A[2K[631/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_30
+[1A[2K[632/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_31
 [1A[2K[633/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_32
 [1A[2K[634/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_33
 [1A[2K[635/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_34
@@ -696,8 +696,8 @@ Running 960 tests using 6 workers
 [1A[2K[647/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_46
 [1A[2K[648/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_47
 [1A[2K[649/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_48
-[1A[2K[650/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_50
-[1A[2K[651/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_49
+[1A[2K[650/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_49
+[1A[2K[651/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_50
 [1A[2K[652/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_51
 [1A[2K[653/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_52
 [1A[2K[654/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_53
@@ -709,8 +709,8 @@ Running 960 tests using 6 workers
 [1A[2K[660/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_59
 [1A[2K[661/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_60
 [1A[2K[662/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_61
-[1A[2K[663/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_62
-[1A[2K[664/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_63
+[1A[2K[663/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_63
+[1A[2K[664/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_62
 [1A[2K[665/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_64
 [1A[2K[666/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_65
 [1A[2K[667/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on error_66
@@ -791,8 +791,8 @@ Running 960 tests using 6 workers
 [1A[2K[742/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_21
 [1A[2K[743/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_22
 [1A[2K[744/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_23
-[1A[2K[745/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_24
-[1A[2K[746/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_25
+[1A[2K[745/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_25
+[1A[2K[746/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_24
 [1A[2K[747/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_26
 [1A[2K[748/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_27
 [1A[2K[749/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_28
@@ -821,8 +821,8 @@ Running 960 tests using 6 workers
 [1A[2K[772/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_51
 [1A[2K[773/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_52
 [1A[2K[774/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_53
-[1A[2K[775/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_55
-[1A[2K[776/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_54
+[1A[2K[775/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_54
+[1A[2K[776/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_55
 [1A[2K[777/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_56
 [1A[2K[778/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_57
 [1A[2K[779/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_58
@@ -876,8 +876,8 @@ Running 960 tests using 6 workers
 [1A[2K[827/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_106
 [1A[2K[828/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_107
 [1A[2K[829/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_108
-[1A[2K[830/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_109
-[1A[2K[831/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_110
+[1A[2K[830/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_110
+[1A[2K[831/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_109
 [1A[2K[832/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_111
 [1A[2K[833/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_112
 [1A[2K[834/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_113
@@ -889,8 +889,8 @@ Running 960 tests using 6 workers
 [1A[2K[840/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message on any value_119
 [1A[2K[841/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_0
 [1A[2K[842/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_1
-[1A[2K[843/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_3
-[1A[2K[844/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_2
+[1A[2K[843/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_2
+[1A[2K[844/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_3
 [1A[2K[845/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_4
 [1A[2K[846/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_5
 [1A[2K[847/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_6
@@ -927,14 +927,14 @@ Running 960 tests using 6 workers
 [1A[2K[878/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_37
 [1A[2K[879/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_38
 [1A[2K[880/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_39
-[1A[2K[881/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_40
-[1A[2K[882/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_41
+[1A[2K[881/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_41
+[1A[2K[882/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_40
 [1A[2K[883/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_42
 [1A[2K[884/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_43
 [1A[2K[885/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_44
 [1A[2K[886/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_45
-[1A[2K[887/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_46
-[1A[2K[888/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_47
+[1A[2K[887/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_47
+[1A[2K[888/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_46
 [1A[2K[889/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_48
 [1A[2K[890/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_49
 [1A[2K[891/960] [chromium] › dist/test-runners/pw.spec.js:9:44 › button message after multiple clicks_50
@@ -1013,4 +1013,4 @@ To open last HTML report run:
 [36m[39m
 [36m  npx playwright show-report[39m
 [36m[39m
- 769503
+ 964013
