@@ -3,7 +3,7 @@
 ## The Project
 The tests run on a simple express server located in `src/server`. It does some fake async work to imitate a real server.
 
-Each test is ran 5 times (in every benchmark), just so I wouldn't need to be creative and run a lot of tests. (can be
+Each test is ran 5 times (in every benchmark), just so I wouldn't need to be creative and write a lot of tests. (can be
 changed via the `TEST_MULTIPLIER` environment variable)
 
 ## Results
