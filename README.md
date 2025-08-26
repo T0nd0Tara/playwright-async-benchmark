@@ -43,8 +43,8 @@ located in `src/test-runners` \
   runs `async-runner.spec.ts` with one worker, \
   and `pw.spec.ts` with all of 1, 2, 3, 4, 5, 6, 7, 8, 16, 32, 40 workers. \
   It stops at `40` as there are a total of `40` tests.
-- `run-best.sh`, total of 160 tests\
-  sets `TEST_MULTIPLIER=20` \
+- `run-best.sh` \
+  sets `TEST_MULTIPLIER=20`, total of 160 tests\
   runs `async-runner.spec.ts` once with one worker, and then with 2 workers, \
   and `pw.spec.ts` with 6 workers as it's seems to do the best on my machine. \
 - `run-fair.sh` \
