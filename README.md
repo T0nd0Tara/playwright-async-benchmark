@@ -1,10 +1,5 @@
 # Playwright Async Benchmark 
 
-## The Story Behind this Repo
-So this repo was created for a certain someone (who will remain anonymous) made [this amazing comment](https://github.com/microsoft/playwright/issues/37062#issuecomment-3193733984).\
-After I was in shock for a bit, I talked in the [PW discord server](https://discord.com/channels/807756831384403968/1405813451179294731). People there suggested to create a benchmark checking my statement. \
-So here we are, me proving to this anonymous person that Playwright can be much faster.
-
 ## The Project
 The tests run on a simple express server located in `src/server`. It does some fake async work to imitate a real server.
 
@@ -12,7 +7,6 @@ Each test is ran 5 times (in every benchmark), just so I wouldn't need to be cre
 changed via the `TEST_MULTIPLIER` environment variable)
 
 ## Results
-Not surprising really\
 on my machine, an Ubuntu with the specs:
 ```
 OS: Ubuntu 24.04.3 LTS x86_64
@@ -34,20 +28,29 @@ Memory: 2988MiB / 39991MiB
 ```
 For context.
 
-To run the benchmark yourself run `./run-all.sh >| file-of-your-choosing.txt`.
-It will set there the raw output from playwright.
+To run the benchmarks yourself run `./run-all-benchmarks.sh`.
+It will write in the relevant files the raw output from playwright.
+
+### Test Runners
+located in `src/test-runners` \
+`pw.spec.ts` - The regular PlayWright interface. \
+`async-runner.spec.ts` - For running tests concurrently in each worker \
+`async-runner-with-plimit.spec.ts` - Same as `async-runner.spec.ts` but creates a cap for concurrency.
 
 ### Kinds of Benchmarks
-There is a benchmark test with only one worker running all of the tests _concurrently_ (this is the file `async-runner.spec.ts`).\
-Originally I wanted to have a test with 2 workers each running their tests concurrently, but I saw it wasn't necessary
-as the results are just astounding.
-
-There is also benchmarks for running the tests with every of the following worker counts 
-1, 2, 3, 4, 5, 6, 7, 8, 16, 32, 40. \
-It stops at `40` as there are a total of `40` tests.
-
-This is a joke on the comment he made, obviously it is stupid to run `40` workers on a machine like my own with only `8` threads.\
-But I did it anyway just to prove a point (RIP my computer lol)
+- `run-all.sh` \
+  sets `TEST_MULTIPLIER=5`, total of 40 tests\
+  runs `async-runner.spec.ts` with one worker, \
+  and `pw.spec.ts` with all of 1, 2, 3, 4, 5, 6, 7, 8, 16, 32, 40 workers. \
+  It stops at `40` as there are a total of `40` tests.
+- `run-best.sh`, total of 160 tests\
+  sets `TEST_MULTIPLIER=20` \
+  runs `async-runner.spec.ts` once with one worker, and then with 2 workers, \
+  and `pw.spec.ts` with 6 workers as it's seems to do the best on my machine. \
+- `run-fair.sh` \
+  sets `TEST_MULTIPLIER=120`, total of 960 tests\
+  runs `async-runner-with-plimit.spec.ts` once with 6 workers, \
+  and `pw.spec.ts` with 6 workers as well.
 
 ### Graphs
 On my Ubuntu: \
@@ -70,7 +73,8 @@ How can we solve it? With the library [p-limit](https://www.npmjs.com/package/p-
 By letting each worker have a concurrency of `15`, we assure all of our tests get the attention they need.\
 We get these results: \
 ![ubuntu-chrome-fair](./images/ubuntu-chrome-fair.png) \
-Now we can see that we can achieve an increase in speed of `4.5` times that of PlayWright.
+Now we can see that we can achieve an increase in speed of `4.5` times that of PlayWright. \
+And the gap between `PW` and the `async-runner-with-plimit` would continue to grow the more async tests we'd have.
 
 
 ## What Now?
@@ -81,4 +85,15 @@ behaviour of PlayWright. \
 But it can be configurable in `playwright.config.ts` for example, maybe even use something like `p-limit` and allow to
 limit the amount of concurrency per worker (like in `run-fair.sh`) Just a thought.
 
+## Disadvenatges
+As the advenatges are clear, the disadvantages need to be stated
+- **Encapsulation** \
+  As we can create new browser context for each test via `await browser.newContext()`, \
+  and catch errors from functions natively in JS. \
+  The real encapsulation problem comes from tests writing and reading global variables, which can cause flaky tests. \
+  This is the main reason why I believe this should not be the default behaviour of PW.
 
+- **Refactor** \
+  To be honest, I didn't read that much into the PW code, but I believe it wouldn't be that trivial of a PR.
+
+  
