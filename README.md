@@ -58,7 +58,7 @@ On my Ubuntu: \
 You can see that not only that the async-runner (that runs with 1 worker) is much faster then the best PW has to offer.\
 There is also a regression when you try to run more workers then your threads on your CPU (as expected)
 
-But this doesn't do much for me, So I run it with a multiplier of 20 (instead of 5, you can change it in `src/all-tests.ts`), totaling in 180 tests. \
+But this doesn't do much for me, So I run it with a multiplier of 20 (instead of 5), totaling in 160 tests. \
 And as it seems that the best workers number on my machine is 6, I stuck with it. \
 This is what the script `run-best.sh` is for. Notice that the difference between the 2 asyncs here is that 1 runs with 2 workers \
 ![ubuntu-chrome-best](./images/ubuntu-chrome-best.png) \
