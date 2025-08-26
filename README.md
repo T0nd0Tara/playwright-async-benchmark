@@ -46,7 +46,7 @@ located in `src/test-runners` \
 - `run-best.sh` \
   sets `TEST_MULTIPLIER=20`, total of 160 tests\
   runs `async-runner.spec.ts` once with one worker, and then with 2 workers, \
-  and `pw.spec.ts` with 6 workers as it's seems to do the best on my machine. \
+  and `pw.spec.ts` with 6 workers as it's seems to do the best on my machine.
 - `run-fair.sh` \
   sets `TEST_MULTIPLIER=120`, total of 960 tests\
   runs `async-runner-with-plimit.spec.ts` once with 6 workers, \
