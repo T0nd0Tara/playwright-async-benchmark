@@ -73,8 +73,7 @@ How can we solve it? With the library [p-limit](https://www.npmjs.com/package/p-
 By letting each worker have a concurrency of `15`, we assure all of our tests get the attention they need.\
 We get these results: \
 ![ubuntu-chrome-fair](./images/ubuntu-chrome-fair.png) \
-Now we can see that we can achieve an increase in speed of `4.5` times that of PlayWright. \
-And the gap between `PW` and the `async-runner-with-plimit` would continue to grow the more async tests we'd have.
+Now we can see that we can achieve an increase in speed of `4.5` times that of PlayWright.
 
 
 ## What Now?
