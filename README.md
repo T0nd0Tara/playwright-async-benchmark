@@ -29,7 +29,8 @@ Memory: 2988MiB / 39991MiB
 For context.
 
 To run the benchmarks yourself run `./run-all-benchmarks.sh`.
-It will write in the relevant files the raw output from playwright.
+It will write the results in the relevant files, the raw output from playwright. \
+Each benchmark is ran 3 times to get persistence results.
 
 ### Test Runners
 located in `src/test-runners` \
@@ -73,19 +74,17 @@ How can we solve it? With the library [p-limit](https://www.npmjs.com/package/p-
 By letting each worker have a concurrency of `15`, we assure all of our tests get the attention they need.\
 We get these results: \
 ![ubuntu-chrome-fair](./images/ubuntu-chrome-fair.png) \
-Now we can see that we can achieve an increase in speed of `4.5` times that of PlayWright.
+Now we can see that we can achieve an increase in speed of `4.5` times that of native PlayWright.
 
 
 ## What Now?
-This gain can only be if the tests are waiting for things to happen, and not doing the hard computation on their own. \
-As this is the case of most website's tests I believe it should be a feature in PlayWright, to make it easier for the developers to gain this performance. \
-As I said in my [first issue](https://github.com/microsoft/playwright/issues/36900), this should not be the default
-behaviour of PlayWright. \
-But it can be configurable in `playwright.config.ts` for example, maybe even use something like `p-limit` and allow to
-limit the amount of concurrency per worker (like in `run-fair.sh`) Just a thought.
+This gain can only be, if the tests are waiting for things to happen, and not doing the hard computation on their own. \
+As this is the case of most website's tests I believe it should be a future feature in PlayWright, to make it easier for the developers to gain this performance. \
+It might won't be a great idea to make it the default as there is some problems with encapsulation between tests. \
+But it can be configurable in `playwright.config.ts` for example (as well as the max concurrency per worker).
 
-## Disadvenatges
-As the advenatges are clear, the disadvantages need to be stated
+## Disadvantages
+As the advantages are clear, the disadvantages need to be stated
 - **Encapsulation** \
   As we can create new browser context for each test via `await browser.newContext()`, \
   and catch errors from functions natively in JS. \
